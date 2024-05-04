@@ -1,0 +1,81 @@
+{
+	"ModelProperties": [
+		{
+			"ModelName": "DancingVampire",
+			"FilePath": "dancing_vampire.dae",
+			"Position": [-25.0, -13.0, 0.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 0.1,
+			"bApplyBones": true,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": false,
+			"bUseManualColors": false,
+			"bIsSkyBox":false,
+			"bUseTextures": true,
+			"Color": [0.1, 0.1, 0.85],
+			"TextureDetails": [
+				{
+					"bTextureBlend": false,
+					"bUseDiscardMask": false,
+					"DiscardMaskTexturePath": " ",
+					"TexturePath": "Vampire_diffuse.bmp",
+					"TextureName": "Goku_Texture"
+				}
+			]
+		},
+		{
+			"ModelName": "DancingVampire01",
+			"FilePath": "Zombie Walk.dae",
+			"Position": [25.0, -13.0, 0.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 0.1,
+			"bApplyBones": true,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": false,
+			"bUseManualColors": false,
+			"bIsSkyBox":false,
+			"bUseTextures": true,
+			"Color": [0.1, 0.1, 0.85],
+			"TextureDetails": [
+				{
+					"bTextureBlend": false,
+					"bUseDiscardMask": false,
+					"DiscardMaskTexturePath": " ",
+					"TexturePath": "Vampire_diffuse.bmp",
+					"TextureName": "Goku_Texture"
+				}
+			]
+		},
+		{
+			"ModelName": "Ground",
+			"FilePath": "Flat_10x10_plane_n_rgba.ply",
+			"Position": [0.0, -15.0, 0.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 10.0,
+			"bApplyBones": false,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": true,
+			"bUseManualColors": false,
+			"bIsSkyBox":false,
+			"bUseTextures": false,
+			"Color": [0.1, 0.1, 0.85]
+		}
+	],
+	"LightProperties": [
+		{
+			"LightId": 0,
+			"bLightOn": true, 
+			"LightType": 2.0,
+			"LinearAttenuation": 0.1,
+			"QuadraticAttenuation": 0.0,
+			"InnerAngle": 0.50,
+			"OuterAngle": 1.0,
+			"LightPosition": [0.0, 30.0, 0.0],
+			"LightDirection": [0.0, -1.0, 0.0],
+			"LightColor": [1.0, 1.0, 1.0]
+		}
+	],
+	"CameraProperties": {
+		"CameraPosition": [0.0, 0.0, 100.0]
+	}
+}
